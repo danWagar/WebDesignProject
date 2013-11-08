@@ -1,0 +1,16 @@
+#leftcontent{
+	float: left;
+	padding-top: 7px;
+}
+	
+#rightcontent{
+	float: right;
+	width: 400px;
+	font-size: 12pt;
+	padding-top: 75px;
+}
+
+#rightcontent p{
+	line-height: 40px;
+}
+	

@@ -1,0 +1,57 @@
+ul.gallery {
+  width: 800px;
+  height: 675px;
+  margin: 40px auto;
+  padding-top: 30px;
+  background: #959796 url(../images/greyWood.jpg);
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  
+}
+
+ul.gallery li{
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+	border-style: none;
+	padding-top: 20px;
+}
+
+ul.gallery li a {
+	float: left;
+	padding: 10px 10px 25px 10px;
+	background: #eee;
+	border: 1px solid #fff;
+	-moz-box-shadow: 0px 2px 15px #333;
+	position: relative;
+}
+
+ul.gallery li a.pic-1 {
+	z-index: 1;
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+}
+ul.gallery li a.pic-2 {
+	z-index: 5;
+	-webkit-transform: rotate(5deg);
+	-moz-transform: rotate(5deg);
+}
+ul.gallery li a.pic-3 {
+	z-index: 3;
+	-webkit-transform: rotate(8deg);
+	-moz-transform: rotate(8deg);
+}
+
+ul.gallery li a.pic-4 {
+	z-index: 6;
+	-webkit-transform: rotate(-4deg);
+	-moz-transform: rotate(-4deg);
+}
+
+ul.gallery li a:hover {
+	z-index: 10;
+	-moz-box-shadow: 3px 5px 15px #333;
+}
